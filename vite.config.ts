@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import replace from '@rollup/plugin-replace'
 
 const pwaOptions: Partial<VitePWAOptions> = {
-  mode: 'development',
+  mode: 'production',
   base: '/',
   includeAssets: ['favicon.svg'],
   manifest: {
