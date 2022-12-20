@@ -33,7 +33,7 @@ function Home() {
 					value={name}
 					onChange={handleChange}
 					type='text'
-					aria-label="What's your name?"
+					aria-label="What's your namee?"
 					placeholder="What's your name?"
 				/>
 				<button type='submit'>GO</button>
